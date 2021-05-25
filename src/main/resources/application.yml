@@ -1,3 +1,8 @@
 micronaut:
   application:
     name: meliTest
+  datasource:
+    username: ${db.user:`hwtqmoedmdhmng`}
+    password: ${db.password:`99b9ec8586d0ef37b1831ca0696a6b4b221e1ccc20285180546e244de835d5be`}
+    url: ${db.url:`jdbc:postgresql://ec2-18-214-140-149.compute-1.amazonaws.com:5432/d6avmoalj18go0`}
+    driver: org.postgresql.Driver
