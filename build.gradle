@@ -36,7 +36,6 @@ java {
     sourceCompatibility = JavaVersion.toVersion("14")
     targetCompatibility = JavaVersion.toVersion("14")
 }
-
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
 
